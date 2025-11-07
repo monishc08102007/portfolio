@@ -8,6 +8,9 @@ body{
     padding:0;
     color: black ;
 }header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,6 +19,7 @@ body{
   box-shadow: 2PX, 5PX, 8PX #e0e0e0;
   width: 100%;
   z-index: 1000;
+  padding-left: 5px;
 
 }
 
@@ -24,20 +28,11 @@ body{
     font-weight: 600;  
     color: aqua;
     text-align: center;
-}]
-.name{
-    font-family: '' ,sans-serif;
-    font-size: large;
-    font-weight: 700;  
-    color: black;
-    text-align: center;
 }
-.id{
-    font-family: 'poppins', sans-serif;
+.name{
     font-size: large;
     font-weight: 700;  
     color: black;
-    text-align: center;
 }
 .nav{
     margin: 0;
